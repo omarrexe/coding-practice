@@ -1,0 +1,6 @@
+SELECT round(long_w,4)
+FROM STATION
+WHERE lat_n <137.2345
+ORDER by lat_n DESC
+limit 1;
+
